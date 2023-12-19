@@ -1,0 +1,47 @@
+.button{
+    background-color: red;
+    width: 5rem;
+    height: 3.5rem;
+}
+.result { 
+    grid-area: result;
+    width: -webkit-fill-available;
+    height: 6rem;
+}
+.clear { 
+    grid-area: clear;
+    width: -webkit-fill-available;
+}
+.delete { 
+    grid-area: delete;
+    width: -webkit-fill-available;
+}
+.number1 { grid-area: number1; }
+.number2 { grid-area: number2; }
+.number3 { grid-area: number3; }
+.number4 { grid-area: number4; }
+.number5 { grid-area: number5; }
+.number6 { grid-area: number6; }
+.number7 { grid-area: number7; }
+.number8 { grid-area: number8; }
+.number9 { grid-area: number9; }
+.division { grid-area: division; }
+.product { grid-area: product; }
+.resta { grid-area: resta; }
+.suma { grid-area: suma; }
+.equal { grid-area: equal; }
+.cero { grid-area: cero; }
+.dot { grid-area: dot; }
+
+.gridContainer{
+    display: inline-grid;
+    justify-items: center;
+  grid-template-areas:
+    'result result result result'
+    'clear clear delete delete'
+    'number7 number8 number9 division'
+    'number4 number5 number6 product'
+    'number1 number2 number3 resta'
+    'dot cero equal suma';
+    gap: 0.5rem;
+}

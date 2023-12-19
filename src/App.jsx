@@ -1,9 +1,12 @@
 import './App.css'
+import Buttons from './components/Buttons/Buttons'
 
 function App() {
 
   return (
-    <div><h1>MultiOperator</h1></div>
+    <div>
+      <Buttons/>
+    </div>
   )
 }
 
